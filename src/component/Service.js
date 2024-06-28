@@ -15,7 +15,7 @@ const Service = () => {
                 <div className=''>
                     <h3 className='font-bold'>Services</h3>
                     <p>lorem fwkefwe fka kiofewf noegewj fnewf.</p>
-                    <button className='bg-green-200 rounded-xl px-5 py-2 font-bold' style={{ backgroundColor: color }}>Read more</button>
+                    <button className='bg-green-200 rounded-xl px-5 py-2 font-bold text-white'  style={{ backgroundColor: color }}>Read more</button>
                 </div>
             </div>
             <div className='flex gap-5'>
@@ -25,7 +25,7 @@ const Service = () => {
                 <div>
                     <h3 className='font-bold'>Services</h3>
                     <p>lorem fwkefwe fka kiofewf noegewj fnewf.</p>
-                    <button className='bg-green-200 rounded-xl px-5 py-2 font-bold' style={{ backgroundColor: color }}>Read more</button>
+                    <button className='bg-green-200 rounded-xl px-5 py-2 font-bold text-white' style={{ backgroundColor: color }}>Read more</button>
                 </div>
             </div>
             <div className='flex gap-5'>
@@ -35,7 +35,7 @@ const Service = () => {
                 <div>
                     <h3 className='font-bold'>Services</h3>
                     <p>lorem fwkefwe fka kiofewf noegewj fnewf.</p>
-                    <button className='bg-green-200 rounded-xl px-5 py-2 font-bold' style={{ backgroundColor: color }}>Read more</button>
+                    <button className='bg-green-200 rounded-xl px-5 py-2 font-bold text-white' style={{ backgroundColor: color }}>Read more</button>
                 </div>
             </div>
 
