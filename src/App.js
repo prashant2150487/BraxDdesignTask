@@ -12,7 +12,7 @@ import Contact from './component/Contact';
 function App() {
   const { color } = useContext(ColorContext);
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen relative">
       <Sidebar>
         <ColorPicker />
         <LogoChanger />
