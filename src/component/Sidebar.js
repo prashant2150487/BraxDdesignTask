@@ -35,7 +35,7 @@ const Sidebar = () => {
             </div>
 
             {isOpenColor && (
-                <div className="fixed border right-0 top-0 w-xl h-full bg-[#f2f2f2] text-black p-4">
+                <div className="fixed border right-0 top-0 w-xl z-10 h-full bg-[#f2f2f2] text-black p-4">
                     <button className="font-bold px-2 ml-auto block text-white p-2 rounded-lg " style={{ backgroundColor: color }} onClick={() => setIsOpenColor(!isOpenColor)}>
                         <RxCross2 />
                     </button>
