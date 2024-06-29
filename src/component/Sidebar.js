@@ -35,7 +35,7 @@ const Sidebar = () => {
             </div>
 
             {isOpenColor && (
-                <div className="fixed border right-0 top-0 w-xl z-10 h-full bg-[#f2f2f2] text-black p-4">
+                <div className="fixed border right-0 top-0 w-xl z-10 h-full bg-slate-500 text-black p-4">
                     <button className="font-bold px-2 ml-auto block text-white p-2 rounded-lg " style={{ backgroundColor: color }} onClick={() => setIsOpenColor(!isOpenColor)}>
                         <RxCross2 />
                     </button>
@@ -43,7 +43,7 @@ const Sidebar = () => {
                 </div>
             )}
             {isOpenLogo && (
-                <div className="fixed border right-0 top-0 w-1/3 h-full bg-[#f2f2f2] text-black text-white p-4">
+                <div className="fixed border right-0 top-0 w-1/3 h-full bg-slate-500 text-black p-4">
                     <button className="font-bold px-2 ml-auto block text-white p-2 rounded-lg " style={{ backgroundColor: color }} onClick={() => setIsOpenLogo(!isOpenLogo)}>
                         <RxCross2 />
                     </button>
@@ -51,7 +51,7 @@ const Sidebar = () => {
                 </div>
             )}
             {showModal && (
-                <div className="border max-w-sm rounded-lg fixed transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 p-5 flex flex-col">
+                <div className="b max-w-sm rounded-lg bg-slate-500 shadow-lg fixed transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 p-5 flex flex-col">
                     <p className="font-bold">
                         When you submit this form our team will receive a notification with
                         the color you selected and the logo you designed.
