@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { ColorContext } from '../component/ColorProvider'
 
 const Header = () => {
-    const { color } = useContext(ColorContext);
+    const { color, url } = useContext(ColorContext);
     return (
         <div>
             <header className=" inset-x-0  bg-white " >
@@ -10,7 +10,9 @@ const Header = () => {
                     <div className="flex lg:flex-1">
                         <a href='#home' className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
-                            <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+                            <img src={url || "https://logos-world.net/wp-content/uploads/2020/05/Huawei-Logo.jpg"} className='w-20 h-15' alt='' />
+                           
+
                         </a>
                     </div>
                     <div className="flex lg:hidden" >
