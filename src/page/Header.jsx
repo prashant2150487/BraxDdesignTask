@@ -5,12 +5,12 @@ const Header = () => {
     const { color, url } = useContext(ColorContext);
     return (
         <div>
-            <header className=" inset-x-0  bg-white " >
+            <header className=" inset-x-0  bg-white container" >
                 <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                     <div className="flex lg:flex-1">
-                        <a href='#home' className="-m-1.5 p-1.5">
+                        <a href='#home' className="p-1.5">
                             <span className="sr-only">Your Company</span>
-                            <img src={url || "https://logos-world.net/wp-content/uploads/2020/05/Huawei-Logo.jpg"} className='w-20 h-15' alt='' />
+                            <img src={url || "	https://braxwebdesign.com/wp-content/uploads/2024/01/Braxweb_Airy-font-Logo-01.png"} className='h-20 max-h-14' alt='' />
                            
 
                         </a>
@@ -24,14 +24,12 @@ const Header = () => {
                         </button>
                     </div>
                     <div className="hidden lg:flex lg:gap-x-12">
-                        <a href="#Product" className="text-sm font-semibold leading-6 text-gray-900">Product</a>
-                        <a href="#Feature" className="text-sm font-semibold leading-6 text-gray-900">Features</a>
-                        <a href="#Features" className="text-sm font-semibold leading-6 text-gray-900">Marketplace</a>
-                        <a href="#Company" className="text-sm font-semibold leading-6 text-gray-900">Company</a>
+                        <a href="#Product" className="text-sm font-semibold leading-6 text-gray-900">Home</a>
+                        <a href="#Feature" className="text-sm font-semibold leading-6 text-gray-900">Service</a>
+                        <a href="#Features" className="text-sm font-semibold leading-6 text-gray-900">About</a>
+                        <a href="#Company" className="text-sm font-semibold leading-6 text-gray-900">Contact</a>
                     </div>
-                    <div className="hidden lg:flex lg:flex-1 lg:justify-end" >
-                        <a href="#Login" className="text-sm font-semibold leading-6  px-3 py-1 rounded-md text-white " style={{ backgroundColor: color }} >Log in <span aria-hidden="true">&rarr;</span></a>
-                    </div>
+                 
                 </nav>
                 <div className="lg:hidden" role="dialog" aria-modal="true">
                     <div className="fixed inset-0 z-50"></div>
