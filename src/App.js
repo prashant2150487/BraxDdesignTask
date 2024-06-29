@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import ColorPicker from './page/ColorPicker';
 import LogoChanger from './page/LogoChanger';
@@ -19,7 +18,6 @@ function App() {
         <Service />
         <Contact />
         
-        {/* <SubmitButton /> */}
       </div>
     </div>
   );

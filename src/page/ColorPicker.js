@@ -4,7 +4,6 @@ import { ColorContext } from '../component/ColorProvider';
 const ColorPicker = () => {
     const colors = ['green', '#f44336', '#e91e63', '#9c27b0', '#673ab7', '#5083af', '#8fce00', '#ffe599', '#e06666'];
     const { color, setColor } = useContext(ColorContext)
-    console.log(color)
     return (
         <div>
             <h2 className='font-bold'>Filter</h2>
