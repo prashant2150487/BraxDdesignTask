@@ -5,6 +5,7 @@ import Sidebar from './component/Sidebar';
 import Header from './page/Header';
 import Service from './component/Service';
 import Contact from './component/Contact';
+import About from './component/About';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       </Sidebar>
       <div className="p-4">
         <Header />
+        <About/>
         <Service />
         <Contact />
         
