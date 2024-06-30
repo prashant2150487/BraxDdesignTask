@@ -38,9 +38,9 @@ const Header = () => {
                 </nav>
             </header >
 
-            <div className='container h-[650px] p-9  flex flex-col justify-center'>
+            <div className='container h-[650px]  p-5 md:p-9  flex flex-col justify-center'>
                 <div className='max-w-xl w-full flex flex-col'>
-                    <h1 className='text-7xl font-bold '>Select a color That matches your brand.</h1>
+                    <h1 className='text-4xl sm:text-5xl md:text-7xl font-bold '>Select a color That matches your brand.</h1>
                     <p className='text-lg mt-10'>Our team created this tool to help users test color designs for their new website. Simply click the color picker button on the right to try it out.</p>
                     <button className='px-4 py-4 border rounded-3xl text-white mt-12 max-w-40' style={{ backgroundColor: color }}>Call to action 2</button>
                 </div>

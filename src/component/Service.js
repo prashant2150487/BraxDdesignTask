@@ -9,7 +9,7 @@ const Service = () => {
     const { color } = useContext(ColorContext);
     return (
         <div className='flex flex-wrap justify-center gap-x-20 min-h-80 items-center p-5'>
-            <div className='flex gap-5 max-w-[300px]'>
+            <div className='flex gap-5 m-4 max-w-[300px]'>
                 <div className='p-5 rounded-full text-white text-4xl h-fit w-fit' style={{ backgroundColor: color }}>
                     <MdBarChart  />
                 </div>
@@ -19,7 +19,7 @@ const Service = () => {
                     <button className='bg-green-200 mt-5 rounded-xl  px-5 py-2 font-bold text-white'  style={{ backgroundColor: color }}>Read more</button>
                 </div>
             </div>
-            <div className='flex gap-5  max-w-[300px]'>
+            <div className='flex gap-5 m-4 max-w-[300px]'>
                 <div className='p-5 rounded-full text-white text-4xl h-fit w-fit' style={{ backgroundColor: color }}>
                     <LuBarChartHorizontal />
                 </div>
@@ -29,7 +29,7 @@ const Service = () => {
                     <button className='bg-green-200 mt-5 rounded-xl px-5 py-2 font-bold text-white' style={{ backgroundColor: color }}>Read more</button>
                 </div>
             </div>
-            <div className='flex gap-5  max-w-[300px]'>
+            <div className='flex gap-5 m-4 max-w-[300px]'>
                 <div className='p-5 rounded-full  text-white text-4xl h-fit w-fit' style={{ backgroundColor: color }}>
                     <BsFillBarChartLineFill />
                 </div>
