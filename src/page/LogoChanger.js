@@ -17,7 +17,7 @@ const LogoChanger = () => {
 
     return (
         <div>
-            <h1 className="font-bold text-4xl">Logo Preview</h1>
+            <h1 className="font-bold text-4xl ">Logo Preview</h1>
             <div className="flex gap-5 border border-blue-200 p-4 w-fit rounded-sm mt-5">
                 <div className="max-w-20">
                     <img
@@ -29,7 +29,7 @@ const LogoChanger = () => {
                     className="https://demo.braxwebdesign.com/wp-content/uploads/…04/PHOTO-2024-04-15-14-35-45-removebg-preview.png"
                     alt="img"
                 >
-                    <p className="text-2xl ">{heading}</p>
+                    <p className="text-2xl font-bold">{heading}</p>
                     {!showSubheading && <p>{subheading}</p>}
                 </div>
             </div>
