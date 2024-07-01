@@ -51,8 +51,8 @@ const Sidebar = () => {
                 </div>
             )}
             {showModal && (
-                <div className="b max-w-sm rounded-lg bg-slate-500 shadow-lg fixed transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 p-5 flex flex-col">
-                    <p className="font-bold">
+                <div className="max-w-sm rounded-lg bg-slate-700 shadow-xl fixed transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 p-5 flex flex-col">
+                    <p className="font-bold text-white text-md mb-3">
                         When you submit this form our team will receive a notification with
                         the color you selected and the logo you designed.
                     </p>

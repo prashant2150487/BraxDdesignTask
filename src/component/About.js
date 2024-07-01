@@ -5,9 +5,9 @@ import { ColorContext } from './ColorProvider';
 const About = () => {
     const {color}=useContext(ColorContext)
     return (
-        <div className='md:flex flex-col  border p-2'>
-            <img src="https://imageio.forbes.com/specials-images/imageserve/64cce364ad84ff0538f2b75d/Focused-on-success-and-growth/960x0.jpg?format=jpg&width=960" className='md:w-1/2 w-full h-[400px] rounded-e-lg md:p-5 p-1' alt='' />
-            <div className='md:w-1/2 w-full p-5'>
+        <div className='flex max-md:flex-col'>
+            <img src="https://imageio.forbes.com/specials-images/imageserve/64cce364ad84ff0538f2b75d/Focused-on-success-and-growth/960x0.jpg?format=jpg&width=960" className='md:w-1/2 h-[400px] rounded-lg md:p-2 object-cover' alt='' />
+            <div className='p-5 md:w-1/2 '>
                 <h1 className='font-bold text-2xl'>About</h1>
                 <p className='mt-4 text-gray'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed nisi id lorem blandit consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nte ipsum.</p>
                 <div>
